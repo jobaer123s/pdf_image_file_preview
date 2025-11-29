@@ -3,7 +3,7 @@
     "summary": "Adds a preview button to Binary fields for PDF, text, and images.",
     "version": "18.0.1.0.0",
     "category": "Tools",
-    "author": "Sapnil Sarker Bipro",
+    "author": "Jobaer Hossain - JH Odoo Solution",
     "license": "LGPL-3",
     "depends": ["web", "sale"],
     "data": [],
