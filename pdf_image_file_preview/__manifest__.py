@@ -6,9 +6,7 @@
     "author": "Sapnil Sarker Bipro",
     "license": "LGPL-3",
     "depends": ["web", "sale"],
-    "data": [
-        "views/sale_order_views.xml",
-    ],
+    "data": [],
     "assets": {
         "web.assets_backend": [
             "pdf_image_file_preview/static/src/js/binary_preview_patch.js",
