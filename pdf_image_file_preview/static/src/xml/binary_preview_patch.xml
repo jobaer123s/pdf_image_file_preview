@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+  <t t-inherit="web.BinaryField" t-inherit-mode="extension">
+    <xpath expr="//FileUploader" position="after">
+      <button
+        class="btn btn-link btn-sm lh-1 fa fa-eye o_preview_file_button"
+        aria-label="Preview"
+        data-tooltip="Preview"
+        t-on-click.stop="onPreviewClick"/>
+    </xpath>
+  </t>
+</templates>
