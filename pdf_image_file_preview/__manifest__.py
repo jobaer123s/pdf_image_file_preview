@@ -5,7 +5,10 @@
     "category": "Tools",
     "author": "Sapnil Sarker Bipro",
     "license": "LGPL-3",
-    "depends": ["web"],
+    "depends": ["web", "sale"],
+    "data": [
+        "views/sale_order_views.xml",
+    ],
     "assets": {
         "web.assets_backend": [
             "pdf_image_file_preview/static/src/js/binary_preview_patch.js",
@@ -16,6 +19,7 @@
             "pdf_image_file_preview/static/src/xml/binary_preview_patch.xml",
         ],
     },
+    'images': ['static/description/banner.png'],
     "installable": True,
     "application": True,
     "auto_install": False,
