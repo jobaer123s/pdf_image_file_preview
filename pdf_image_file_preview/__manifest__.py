@@ -5,7 +5,7 @@
     "category": "Tools",
     "author": "Jobaer Hossain - JH Odoo Solution",
     "license": "LGPL-3",
-    "depends": ["web", "sale"],
+    "depends": ["web"],
     "data": [],
     "assets": {
         "web.assets_backend": [
